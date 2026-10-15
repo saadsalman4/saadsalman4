@@ -60,17 +60,6 @@ GitHub profile README
 
 ---
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=saadsalman4&show_icons=true&hide_border=true&title_color=9a3412&icon_color=1f6b4a&text_color=5c564c&bg_color=00000000&count_private=true" alt="Saad's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saadsalman4&layout=compact&hide_border=true&title_color=9a3412&text_color=5c564c&bg_color=00000000" alt="Top languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=saadsalman4&hide_border=true&background=00000000&stroke=e3dbcf&ring=9a3412&fire=9a3412&currStreakLabel=1c1915&sideLabels=5c564c&dates=5c564c&currStreakNum=1f6b4a" alt="GitHub streak" />
-</div>
-
----
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" src="https://raw.githubusercontent.com/saadsalman4/saadsalman4/output/github-contribution-grid-snake-dark.svg">
