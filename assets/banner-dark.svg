@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Saad Salman  fullstack, cloud, AI">
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161410"/>
+      <stop offset="100%" stop-color="#1c1915"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="50%" r="28%">
+      <stop offset="0%" stop-color="#e07a3d" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#e07a3d" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .ring { fill: none; stroke: #3a342c; stroke-width: 1.2; }
+      .ring-pulse { stroke: #e07a3d; stroke-opacity: 0.4; animation: pulse 3.6s ease-in-out infinite; }
+      .sweep { transform-origin: 930px 210px; animation: spin 7.5s linear infinite; }
+      .dot { fill: #efe8dc; }
+      .core { fill: #e07a3d; animation: beat 2.4s ease-in-out infinite; transform-origin: 930px 210px; }
+      .label { fill: #b7aea2; font: 600 13px "Segoe UI", system-ui, sans-serif; letter-spacing: 0.04em; }
+      .kicker { fill: #e07a3d; font: 600 13px "Segoe UI", system-ui, sans-serif; letter-spacing: 0.22em; }
+      .title { fill: #fffdf8; font: 800 64px "Segoe UI", system-ui, sans-serif; letter-spacing: -0.03em; }
+      .lead { fill: #cfc6ba; font: 400 20px "Segoe UI", system-ui, sans-serif; }
+      .chip { fill: #221e19; stroke: #3a342c; }
+      .chip-t { fill: #fffdf8; font: 600 12px "Segoe UI", system-ui, sans-serif; }
+      .scan { fill: #e07a3d; opacity: 0.16; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes pulse {
+        0%, 100% { stroke-opacity: 0.18; }
+        50% { stroke-opacity: 0.65; }
+      }
+      @keyframes beat {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.18); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#ink)"/>
+  <rect x="1.5" y="1.5" width="1197" height="417" rx="26.5" fill="none" stroke="#3a342c"/>
+
+  <g opacity="0.5">
+    <path d="M40 70h520" stroke="#3a342c"/>
+    <path d="M40 110h420" stroke="#3a342c"/>
+    <path d="M40 350h480" stroke="#3a342c"/>
+  </g>
+
+  <text class="kicker" x="56" y="86">OPEN TO REMOTE FULLSTACK ROLES</text>
+  <text class="title" x="52" y="168">Saad Salman</text>
+  <text class="lead" x="56" y="214">I like owning a feature the whole way </text>
+  <text class="lead" x="56" y="244">interface, API, and the cloud it runs on.</text>
+
+  <g transform="translate(56 292)">
+    <rect class="chip" width="92" height="32" rx="16"/>
+    <text class="chip-t" x="46" y="21" text-anchor="middle">Next.js</text>
+    <rect class="chip" x="102" width="78" height="32" rx="16"/>
+    <text class="chip-t" x="141" y="21" text-anchor="middle">Node</text>
+    <rect class="chip" x="190" width="88" height="32" rx="16"/>
+    <text class="chip-t" x="234" y="21" text-anchor="middle">Python</text>
+    <rect class="chip" x="288" width="74" height="32" rx="16"/>
+    <text class="chip-t" x="325" y="21" text-anchor="middle">.NET</text>
+    <rect class="chip" x="372" width="80" height="32" rx="16"/>
+    <text class="chip-t" x="412" y="21" text-anchor="middle">Azure</text>
+    <rect class="chip" x="462" width="70" height="32" rx="16"/>
+    <text class="chip-t" x="497" y="21" text-anchor="middle">AWS</text>
+  </g>
+
+  <circle cx="930" cy="210" r="165" fill="url(#glow)"/>
+  <circle class="ring" cx="930" cy="210" r="58"/>
+  <circle class="ring" cx="930" cy="210" r="96"/>
+  <circle class="ring ring-pulse" cx="930" cy="210" r="134"/>
+  <circle class="ring" cx="930" cy="210" r="162" stroke-dasharray="3 7"/>
+  <line class="ring" x1="768" y1="210" x2="1092" y2="210"/>
+  <line class="ring" x1="930" y1="48" x2="930" y2="372"/>
+
+  <g class="sweep">
+    <path class="scan" d="M930 210 L930 48 A162 162 0 0 1 1078 138 Z"/>
+  </g>
+
+  <circle class="core" cx="930" cy="210" r="7"/>
+
+  <circle class="dot" cx="930" cy="76" r="4.5"/>
+  <text class="label" x="930" y="62" text-anchor="middle">Next.js</text>
+  <circle class="dot" cx="1024" cy="116" r="4.5"/>
+  <text class="label" x="1072" y="120">React</text>
+  <circle class="dot" cx="1064" cy="210" r="4.5"/>
+  <text class="label" x="1078" y="214">Node</text>
+  <circle class="dot" cx="1024" cy="304" r="4.5"/>
+  <text class="label" x="1072" y="308">Azure</text>
+  <circle class="dot" cx="930" cy="344" r="4.5"/>
+  <text class="label" x="930" y="368" text-anchor="middle">Claude</text>
+  <circle class="dot" cx="836" cy="304" r="4.5"/>
+  <text class="label" x="788" y="308" text-anchor="end">Cursor</text>
+  <circle class="dot" cx="796" cy="210" r="4.5"/>
+  <text class="label" x="782" y="214" text-anchor="end">FastAPI</text>
+  <circle class="dot" cx="836" cy="116" r="4.5"/>
+  <text class="label" x="788" y="120" text-anchor="end">Postgres</text>
+</svg>
